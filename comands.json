@@ -1,0 +1,66 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": ["hola", "qué tal", "cómo estás", "saludos", "ola"],
+        "responses": ["Hola!", "Hola, ¿qué necesitas?", "Hola!"]
+      },
+      {
+        "tag": "nombre",
+        "patterns": ["cómo es tu nombre", "cómo te llamas", "cuál es tu nombre", "tienes nombre?"],
+        "responses": ["Mi nombre es upiih docente."]
+      },
+      {
+        "tag": "funciones",
+        "patterns": ["qué puedes hacer", "cuáles son tus funciones", "cómo funcionas", "ayuda", "ayudame", "no entiendo"],
+        "responses": ["Estoy entrenado para proporcionarte las planeaciones de las materias que necesites de las carreras como mecatrónica y sistemas automotrices."]
+      },
+      {
+        "tag": "Carreras",
+        "patterns": ["¿con qué carreras cuentas?", "¿cuáles son las carreras disponibles?", "dime las carreras que tienes", "temarios de las carreras existentes"],
+        "responses": ["Actualmente, cuento con la información de las áreas de mecatrónica y sistemas automotrices."]
+      },
+      {
+        "tag": "Sistemas automotrices semestre 7-tecnologia de materiales automotrices",
+        "patterns": ["temario del semestre 7 de Sistemas Automotrices,tecnologia de materiales automotrices", "temario semestre 7 Sistemas Automotrices,tecnologia de materiales automotrices", "Sistemas Automotrices semestre 7,tecnologia de materiales automotrices"],
+        "responses": ["Claro, aquí tienes, presiona el botón de descarga para adquirir tu temario.", "Aquí tienes el temario solicitado.", "Aquí tienes."]
+      },
+      {
+        "tag": "Sistemas automotrices semestre 7-programasintetico-tecnologia de materiales automotrices",
+        "patterns": ["programa sintético del semestre 7 de Sistemas Automotrices,tecnologia de materiales automotrices", "programa sintético Sistemas Automotrices,tecnologia de materiales automotrices", "Sistemas Automotrices semestre 7 programa sintético,tecnologia de materiales automotrices", "séptimo semestre Automotrices, programa sintético tecnologia de materiales automotrices"],
+        "responses": ["Claro, aquí tienes, presiona el botón de descarga para adquirir tu programa.", "Aquí tienes el programa solicitado.", "Aquí tienes."]
+      },
+      {
+        "tag": "Ingenieria mecatronica semestre 1-estructura y propiedades de los materiales",
+        "patterns": ["temario del semestre 1 de ingenieria mecatronica, estructura y propiedades de los materiales", "temario semestre 1 ingenieria mecatronica,Estructura y propiedades de los materiales", "ingenieria mecatronia semestre 1,estructura y propiedades de los materiales"],
+        "responses": ["Claro, aquí tienes, presiona el botón de descarga para adquirir tu temario.", "Aquí tienes el temario solicitado.", "Aquí tienes."]
+      },
+      {
+        "tag": "Ingenieria mecatronica semestre 1-programasintetico-estructura y propiedades de los materiales",
+        "patterns": ["programa sintetico del semestre 1 de ingenieria mecatronica,estructura y propiedades de los materiales", "programa sintetico semestre 1 ingenieria mecatronica,estructura y propiedades de los materiales", "ingenieria mecatronia semestre 1,programa sintetico,estructura y propiedades de los materiales"],
+        "responses": ["Claro, aquí tienes, presiona el botón de descarga para adquirir tu temario.", "Aquí tienes el temario solicitado.", "Aquí tienes."]
+      },
+      {
+        "tag": "afecto",
+        "patterns": ["te amo", "te adoro", "cásate conmigo", "eres el mejor", "me encantas"],
+        "responses": ["Eres muy amable!", "Gracias, yo también te aprecio!", "Eres genial", "Eso me alegra!", "Gracias por tu cariño!"]
+      },
+      {
+        "tag": "agradecimientos",
+        "patterns": ["gracias", "te agradezco la información", "muchas gracias", "gracias, te amo", "gracias por la ayuda", "gracias", "grashias"],
+        "responses": ["De nada!", "Estoy para servirte", "Ayudarte es un placer"]
+      },
+      { "tag": "Ayuda",
+      "patterns":["Proporcioname la planeacion","Quiero la planeacion de","necesito el temario de","planeacion","ayuda"],
+      "responses":[
+        "Puedes elegir la planeación que necesites desde el menú de opciones que aparecerá al hacer clics en los i" 
+      ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["adios", "hasta pronto", "nos vemos", "hasta luego", "ya me voy"],
+        "responses": ["Adiós!", "Hasta luego, ten un buen día", "Nos vemos!"]
+      }
+    ]
+  }
+  
